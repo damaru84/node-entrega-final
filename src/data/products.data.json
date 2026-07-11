@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "nombre": "Smartphone Samsung Galaxy A54",
+    "categoria": "electronica",
+    "precio": 685500,
+    "stock": 7
+  },
+  {
+    "id": 2,
+    "nombre": "Smartphone Motorola Moto G84",
+    "categoria": "electronica",
+    "precio": 41200,
+    "stock": 17
+  },
+  {
+    "id": 3,
+    "nombre": "Smartphone Xiaomi Redmi Note 13",
+    "categoria": "electronica",
+    "precio": 271800,
+    "stock": 14
+  },
+  {
+    "id": 4,
+    "nombre": "Notebook Lenovo IdeaPad 3",
+    "categoria": "informatica",
+    "precio": 161300,
+    "stock": 6
+  },
+  {
+    "id": 5,
+    "nombre": "Notebook HP Pavilion 15",
+    "categoria": "informatica",
+    "precio": 724600,
+    "stock": 34
+  },
+  {
+    "id": 6,
+    "nombre": "Notebook Dell Inspiron 15",
+    "categoria": "informatica",
+    "precio": 106200,
+    "stock": 37
+  },
+  {
+    "id": 7,
+    "nombre": "Monitor LG 24 pulgadas Full HD",
+    "categoria": "informatica",
+    "precio": 457400,
+    "stock": 2
+  },
+  {
+    "id": 8,
+    "nombre": "Monitor Samsung 27 pulgadas",
+    "categoria": "informatica",
+    "precio": 46200,
+    "stock": 5
+  },
+  {
+    "id": 9,
+    "nombre": "Teclado mecánico Redragon",
+    "categoria": "informatica",
+    "precio": 244300,
+    "stock": 14
+  },
+  {
+    "id": 10,
+    "nombre": "Teclado inalámbrico Logitech K380",
+    "categoria": "informatica",
+    "precio": 544900,
+    "stock": 38
+  },
+  {
+    "id": 11,
+    "nombre": "Mouse inalámbrico Logitech M170",
+    "categoria": "informatica",
+    "precio": 42800,
+    "stock": 35
+  },
+  {
+    "id": 12,
+    "nombre": "Mouse gamer Redragon Cobra",
+    "categoria": "informatica",
+    "precio": 223500,
+    "stock": 34
+  },
+  {
+    "id": 13,
+    "nombre": "Auriculares Bluetooth JBL Tune 510",
+    "categoria": "electronica",
+    "precio": 454900,
+    "stock": 14
+  },
+  {
+    "id": 14,
+    "nombre": "Auriculares gamer HyperX Cloud Stinger",
+    "categoria": "electronica",
+    "precio": 486000,
+    "stock": 37
+  },
+  {
+    "id": 15,
+    "nombre": "Parlante Bluetooth JBL Go 3",
+    "categoria": "electronica",
+    "precio": 306700,
+    "stock": 0
+  },
+  {
+    "id": 16,
+    "nombre": "Parlante portátil Sony SRS-XB13",
+    "categoria": "electronica",
+    "precio": 810700,
+    "stock": 10
+  },
+  {
+    "id": 17,
+    "nombre": "Impresora multifunción Epson L3250",
+    "categoria": "informatica",
+    "precio": 747100,
+    "stock": 27
+  },
+  {
+    "id": 18,
+    "nombre": "Impresora HP DeskJet 2775",
+    "categoria": "informatica",
+    "precio": 371800,
+    "stock": 17
+  },
+  {
+    "id": 19,
+    "nombre": "Disco rígido externo Seagate 1TB",
+    "categoria": "informatica",
+    "precio": 178000,
+    "stock": 13
+  },
+  {
+    "id": 20,
+    "nombre": "Disco sólido SSD Kingston 480GB",
+    "categoria": "informatica",
+    "precio": 815600,
+    "stock": 21
+  },
+  {
+    "id": 21,
+    "nombre": "Pendrive Kingston 32GB",
+    "categoria": "informatica",
+    "precio": 122200,
+    "stock": 5
+  },
+  {
+    "id": 22,
+    "nombre": "Pendrive SanDisk 64GB",
+    "categoria": "informatica",
+    "precio": 413400,
+    "stock": 6
+  },
+  {
+    "id": 23,
+    "nombre": "Memoria RAM Kingston 8GB DDR4",
+    "categoria": "informatica",
+    "precio": 391400,
+    "stock": 22
+  },
+  {
+    "id": 24,
+    "nombre": "Memoria RAM Corsair 16GB DDR4",
+    "categoria": "informatica",
+    "precio": 648100,
+    "stock": 16
+  },
+  {
+    "id": 25,
+    "nombre": "Placa de video GeForce GTX 1650",
+    "categoria": "informatica",
+    "precio": 861300,
+    "stock": 2
+  },
+  {
+    "id": 26,
+    "nombre": "Placa de video GeForce RTX 3060",
+    "categoria": "informatica",
+    "precio": 780200,
+    "stock": 29
+  },
+  {
+    "id": 27,
+    "nombre": "Fuente de PC 500W EVGA",
+    "categoria": "informatica",
+    "precio": 577300,
+    "stock": 7
+  },
+  {
+    "id": 28,
+    "nombre": "Gabinete PC Gamer con luces RGB",
+    "categoria": "informatica",
+    "precio": 411900,
+    "stock": 5
+  },
+  {
+    "id": 29,
+    "nombre": "Cargador de celular tipo C 20W",
+    "categoria": "accesorios",
+    "precio": 38200,
+    "stock": 18
+  },
+  {
+    "id": 30,
+    "nombre": "Cable USB tipo C 1 metro",
+    "categoria": "accesorios",
+    "precio": 25700,
+    "stock": 36
+  },
+  {
+    "id": 31,
+    "nombre": "Cable HDMI 2 metros",
+    "categoria": "accesorios",
+    "precio": 14600,
+    "stock": 4
+  },
+  {
+    "id": 32,
+    "nombre": "Funda para celular universal",
+    "categoria": "accesorios",
+    "precio": 5000,
+    "stock": 14
+  },
+  {
+    "id": 33,
+    "nombre": "Protector de pantalla vidrio templado",
+    "categoria": "accesorios",
+    "precio": 21000,
+    "stock": 5
+  },
+  {
+    "id": 34,
+    "nombre": "Power bank Xiaomi 10000mAh",
+    "categoria": "accesorios",
+    "precio": 17300,
+    "stock": 6
+  },
+  {
+    "id": 35,
+    "nombre": "Adaptador USB a HDMI",
+    "categoria": "accesorios",
+    "precio": 26900,
+    "stock": 17
+  },
+  {
+    "id": 36,
+    "nombre": "Hub USB 4 puertos",
+    "categoria": "accesorios",
+    "precio": 31700,
+    "stock": 40
+  },
+  {
+    "id": 37,
+    "nombre": "Webcam Logitech C270 HD",
+    "categoria": "informatica",
+    "precio": 889600,
+    "stock": 23
+  },
+  {
+    "id": 38,
+    "nombre": "Micrófono USB para streaming",
+    "categoria": "informatica",
+    "precio": 185600,
+    "stock": 23
+  },
+  {
+    "id": 39,
+    "nombre": "Router TP-Link Archer C6",
+    "categoria": "redes",
+    "precio": 56600,
+    "stock": 13
+  },
+  {
+    "id": 40,
+    "nombre": "Repetidor de señal WiFi TP-Link",
+    "categoria": "redes",
+    "precio": 45000,
+    "stock": 4
+  },
+  {
+    "id": 41,
+    "nombre": "Cable de red UTP cat6 x metro",
+    "categoria": "redes",
+    "precio": 32400,
+    "stock": 34
+  },
+  {
+    "id": 42,
+    "nombre": "Switch de red 8 puertos",
+    "categoria": "redes",
+    "precio": 42100,
+    "stock": 10
+  },
+  {
+    "id": 43,
+    "nombre": "Antena WiFi USB",
+    "categoria": "redes",
+    "precio": 70600,
+    "stock": 24
+  },
+  {
+    "id": 44,
+    "nombre": "Smart TV LED 43 pulgadas",
+    "categoria": "electronica",
+    "precio": 298100,
+    "stock": 40
+  },
+  {
+    "id": 45,
+    "nombre": "Smart TV LED 50 pulgadas",
+    "categoria": "electronica",
+    "precio": 736600,
+    "stock": 35
+  },
+  {
+    "id": 46,
+    "nombre": "Control remoto universal para TV",
+    "categoria": "electronica",
+    "precio": 245300,
+    "stock": 20
+  },
+  {
+    "id": 47,
+    "nombre": "Soporte de pared para TV",
+    "categoria": "accesorios",
+    "precio": 5700,
+    "stock": 14
+  },
+  {
+    "id": 48,
+    "nombre": "Ventilador para notebook con luces",
+    "categoria": "accesorios",
+    "precio": 4100,
+    "stock": 20
+  },
+  {
+    "id": 49,
+    "nombre": "Base refrigerante para notebook",
+    "categoria": "accesorios",
+    "precio": 28300,
+    "stock": 17
+  },
+  {
+    "id": 50,
+    "nombre": "Mochila para notebook 15.6 pulgadas",
+    "categoria": "accesorios",
+    "precio": 6300,
+    "stock": 13
+  },
+  {
+    "id": 51,
+    "nombre": "Silla gamer ergonómica",
+    "categoria": "hogar",
+    "precio": 39200,
+    "stock": 20
+  },
+  {
+    "id": 52,
+    "nombre": "Mouse pad gamer XL",
+    "categoria": "accesorios",
+    "precio": 15900,
+    "stock": 31
+  },
+  {
+    "id": 53,
+    "nombre": "Joystick para PC y consola",
+    "categoria": "electronica",
+    "precio": 429800,
+    "stock": 29
+  },
+  {
+    "id": 54,
+    "nombre": "Consola PlayStation 5",
+    "categoria": "electronica",
+    "precio": 164800,
+    "stock": 16
+  },
+  {
+    "id": 55,
+    "nombre": "Consola Xbox Series S",
+    "categoria": "electronica",
+    "precio": 161400,
+    "stock": 15
+  },
+  {
+    "id": 56,
+    "nombre": "Tablet Samsung Galaxy Tab A9",
+    "categoria": "electronica",
+    "precio": 796200,
+    "stock": 35
+  },
+  {
+    "id": 57,
+    "nombre": "Smartwatch Xiaomi Mi Band 8",
+    "categoria": "electronica",
+    "precio": 580200,
+    "stock": 16
+  },
+  {
+    "id": 58,
+    "nombre": "Smartwatch Amazfit Bip 5",
+    "categoria": "electronica",
+    "precio": 798300,
+    "stock": 37
+  },
+  {
+    "id": 59,
+    "nombre": "Batería para notebook Dell",
+    "categoria": "informatica",
+    "precio": 464200,
+    "stock": 37
+  },
+  {
+    "id": 60,
+    "nombre": "Cargador para notebook universal",
+    "categoria": "informatica",
+    "precio": 433800,
+    "stock": 23
+  },
+  {
+    "id": 61,
+    "nombre": "Kit limpieza para PC y notebook",
+    "categoria": "accesorios",
+    "precio": 16400,
+    "stock": 8
+  },
+  {
+    "id": 62,
+    "nombre": "Alfombrilla antiestática",
+    "categoria": "accesorios",
+    "precio": 35400,
+    "stock": 31
+  },
+  {
+    "id": 63,
+    "nombre": "Estabilizador de tensión 1000VA",
+    "categoria": "electrodomesticos",
+    "precio": 43800,
+    "stock": 3
+  },
+  {
+    "id": 64,
+    "nombre": "UPS/SAI 850VA",
+    "categoria": "informatica",
+    "precio": 130000,
+    "stock": 9
+  },
+  {
+    "id": 65,
+    "nombre": "Zapatilla eléctrica con protector",
+    "categoria": "electrodomesticos",
+    "precio": 184500,
+    "stock": 10
+  },
+  {
+    "id": 66,
+    "nombre": "Ventilador de pie 20 pulgadas",
+    "categoria": "electrodomesticos",
+    "precio": 227600,
+    "stock": 27
+  },
+  {
+    "id": 67,
+    "nombre": "Cafetera eléctrica 12 tazas",
+    "categoria": "electrodomesticos",
+    "precio": 176300,
+    "stock": 4
+  },
+  {
+    "id": 68,
+    "nombre": "Plancha a vapor Philips",
+    "categoria": "electrodomesticos",
+    "precio": 120900,
+    "stock": 24
+  },
+  {
+    "id": 69,
+    "nombre": "Licuadora Oster 3 velocidades",
+    "categoria": "electrodomesticos",
+    "precio": 176200,
+    "stock": 29
+  },
+  {
+    "id": 70,
+    "nombre": "Microondas Whirlpool 20L",
+    "categoria": "electrodomesticos",
+    "precio": 158700,
+    "stock": 16
+  },
+  {
+    "id": 71,
+    "nombre": "Pava eléctrica 1.7L",
+    "categoria": "electrodomesticos",
+    "precio": 165000,
+    "stock": 0
+  },
+  {
+    "id": 72,
+    "nombre": "Tostadora eléctrica 2 rebanadas",
+    "categoria": "electrodomesticos",
+    "precio": 198300,
+    "stock": 7
+  },
+  {
+    "id": 73,
+    "nombre": "Aspiradora de mano inalámbrica",
+    "categoria": "hogar",
+    "precio": 37200,
+    "stock": 17
+  },
+  {
+    "id": 74,
+    "nombre": "Lámpara LED de escritorio",
+    "categoria": "hogar",
+    "precio": 24300,
+    "stock": 7
+  },
+  {
+    "id": 75,
+    "nombre": "Regleta con protector de picos",
+    "categoria": "accesorios",
+    "precio": 21200,
+    "stock": 27
+  },
+  {
+    "id": 76,
+    "nombre": "Cámara de seguridad WiFi",
+    "categoria": "redes",
+    "precio": 30700,
+    "stock": 29
+  },
+  {
+    "id": 77,
+    "nombre": "Kit de cámaras de seguridad x4",
+    "categoria": "redes",
+    "precio": 10400,
+    "stock": 16
+  },
+  {
+    "id": 78,
+    "nombre": "Timbre inteligente con cámara",
+    "categoria": "redes",
+    "precio": 75600,
+    "stock": 11
+  },
+  {
+    "id": 79,
+    "nombre": "Cerradura inteligente WiFi",
+    "categoria": "redes",
+    "precio": 76500,
+    "stock": 6
+  },
+  {
+    "id": 80,
+    "nombre": "Impresora de etiquetas térmica",
+    "categoria": "informatica",
+    "precio": 670700,
+    "stock": 19
+  },
+  {
+    "id": 81,
+    "nombre": "Lector de código de barras USB",
+    "categoria": "informatica",
+    "precio": 897600,
+    "stock": 40
+  },
+  {
+    "id": 82,
+    "nombre": "Calculadora científica Casio",
+    "categoria": "accesorios",
+    "precio": 35300,
+    "stock": 38
+  },
+  {
+    "id": 83,
+    "nombre": "Repuesto pantalla iPhone 11",
+    "categoria": "repuestos",
+    "precio": 16000,
+    "stock": 9
+  },
+  {
+    "id": 84,
+    "nombre": "Repuesto batería iPhone 12",
+    "categoria": "repuestos",
+    "precio": 27500,
+    "stock": 10
+  },
+  {
+    "id": 85,
+    "nombre": "Repuesto pantalla Samsung A14",
+    "categoria": "repuestos",
+    "precio": 38300,
+    "stock": 33
+  },
+  {
+    "id": 86,
+    "nombre": "Módulo de carga tipo C genérico",
+    "categoria": "repuestos",
+    "precio": 3000,
+    "stock": 38
+  },
+  {
+    "id": 87,
+    "nombre": "Kit de destornilladores de precisión",
+    "categoria": "herramientas",
+    "precio": 24200,
+    "stock": 31
+  },
+  {
+    "id": 88,
+    "nombre": "Cautín para soldadura electrónica",
+    "categoria": "herramientas",
+    "precio": 4300,
+    "stock": 7
+  },
+  {
+    "id": 89,
+    "nombre": "Multímetro digital",
+    "categoria": "herramientas",
+    "precio": 26800,
+    "stock": 19
+  },
+  {
+    "id": 90,
+    "nombre": "Pistola de aire caliente para reparación",
+    "categoria": "herramientas",
+    "precio": 18700,
+    "stock": 3
+  },
+  {
+    "id": 91,
+    "nombre": "Pasta térmica para procesador",
+    "categoria": "informatica",
+    "precio": 267600,
+    "stock": 36
+  },
+  {
+    "id": 92,
+    "nombre": "Cooler para procesador AMD/Intel",
+    "categoria": "informatica",
+    "precio": 97600,
+    "stock": 5
+  },
+  {
+    "id": 93,
+    "nombre": "Placa madre AM4 gama media",
+    "categoria": "informatica",
+    "precio": 782500,
+    "stock": 31
+  },
+  {
+    "id": 94,
+    "nombre": "Procesador AMD Ryzen 5 5600",
+    "categoria": "informatica",
+    "precio": 870700,
+    "stock": 4
+  },
+  {
+    "id": 95,
+    "nombre": "Procesador Intel Core i5 12400F",
+    "categoria": "informatica",
+    "precio": 812500,
+    "stock": 34
+  },
+  {
+    "id": 96,
+    "nombre": "Gabinete de PC ATX básico",
+    "categoria": "informatica",
+    "precio": 818000,
+    "stock": 8
+  },
+  {
+    "id": 97,
+    "nombre": "Auriculares con micrófono para PC",
+    "categoria": "informatica",
+    "precio": 149600,
+    "stock": 30
+  },
+  {
+    "id": 98,
+    "nombre": "Adaptador Bluetooth USB para PC",
+    "categoria": "informatica",
+    "precio": 591500,
+    "stock": 10
+  },
+  {
+    "id": 99,
+    "nombre": "Cable de audio 3.5mm 1.5 metros",
+    "categoria": "accesorios",
+    "precio": 19400,
+    "stock": 33
+  },
+  {
+    "id": 100,
+    "nombre": "Soporte para celular de auto",
+    "categoria": "accesorios",
+    "precio": 29700,
+    "stock": 13
+  }
+]
