@@ -1,0 +1,6 @@
+$kind: collection
+description: Colección para probar auth y products del backend Node/Express + Firebase
+variables:
+  baseUrl: http://localhost:3000
+  token: ""
+  productId: ""

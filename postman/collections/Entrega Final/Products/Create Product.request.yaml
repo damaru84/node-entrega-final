@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{baseUrl}}/products/create"
+method: POST
+headers:
+  Content-Type: application/json
+  Authorization: Bearer {{token}}
+body:
+  type: text
+  content: |-
+    {
+      "nombre": "Mouse óptico",
+      "precio": 3500,
+      "stock": 10
+    }
+order: 3000
