@@ -1,4 +1,5 @@
 $kind: http-request
+name: Create Product
 url: "{{baseUrl}}/products/create"
 method: POST
 headers:
@@ -8,8 +9,13 @@ body:
   type: text
   content: |-
     {
-      "nombre": "Mouse óptico",
-      "precio": 3500,
-      "stock": 10
+      "producto": {
+        "nombre": "yerba",
+        "stock": 15
+      }
     }
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3ODM3NDU4MjUsImV4cCI6MTc4Mzc0OTQyNX0.ow5-hKMlchD4uc0eI_tcmwPzSxYKsA15e7zRLAu4Pjw
 order: 3000

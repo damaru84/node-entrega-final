@@ -8,7 +8,6 @@ import 'dotenv/config';
 
 const app = express();
 
-
 app.use(cors({
 
   origin: (origin, callback) => {
@@ -34,6 +33,7 @@ app.use(cors({
 app.use(express.json());
 
 app.use((req, res, next) => {
+
   console.log(`Datos recibidos: ${req.method} ${req.url}`);
   next();
 })
@@ -53,7 +53,11 @@ app.get("/JSON", (req, res) => {
   res.send({
     productos: [
       { nombre: "agua", precio: 1000 },
-      { nombre: "yerba", precio: 2500 }
+      { nombre: "yerba", precio: 2500 },
+      { nombre: "azucar", precio: 1300 },
+      { nombre: "tomate", precio: 3500 },      
+      { nombre: "cafe", precio: 1100 },
+      { nombre: "arroz", precio: 500 }
     ]
   }).status(200)
 })
@@ -70,6 +74,24 @@ app.get('/item/:id', (req, res) => {
   res.send(`Devolviendo el ítem con ID: ${itemId}`);
 });
 
+/*
+
+app.get('/items/search', (req, res) =>{
+  const {name} = req.query;
+
+  if(!name){
+    return res.status(400).json({error: "El nombre es requerido"});
+
+  }
+  const productsFiltered = productsRouter.filter((item) =>
+    item.name.toLowerCase().includes(name.toLowerCase())
+  )
+  if (productsFiltered.length == 0){
+    return res.status(404).json({error: "No se encontraron productos"})
+  }
+  res.json(productsFiltered);
+})
+*/
 //app.use(authentication, productsRouter);
 
 app.use(productsRouter);
