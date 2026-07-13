@@ -1,6 +1,6 @@
 import { collection, doc, getDocs, getDoc, addDoc, setDoc, updateDoc, deleteDoc, query, where } from "firebase/firestore";
 import { db } from "../data/firebase.data.js";
-import {app} from "../data/firebase.data.js"
+//import {app} from "../data/firebase.data.js"
 /**
  * Lee todos los documentos de una colección.
  * @param {string} collectionName Nombre de la colección en Firestore.
