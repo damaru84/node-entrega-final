@@ -94,14 +94,23 @@ app.get('/items/search', (req, res) =>{
 */
 //app.use(authentication, productsRouter);
 
-app.use("api/". productsRouter);
+app.use("/api", productsRouter);
 
 app.use(function (req, res, next) {
   res.status(404)
   res.send("ruta no encontrada")
 });
-
+/*
 const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`)
-})
+})*/
+const PORT = process.env.PORT || 3000;
+
+if (process.env.VERCEL !== "1") {
+  app.listen(PORT, () => {
+    console.log(`Servidor corriendo en http://localhost:${PORT}`)
+  })
+}
+
+export default app;
