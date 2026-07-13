@@ -94,7 +94,7 @@ app.get('/items/search', (req, res) =>{
 */
 //app.use(authentication, productsRouter);
 
-app.use(productsRouter);
+app.use("api/". productsRouter);
 
 app.use(function (req, res, next) {
   res.status(404)
